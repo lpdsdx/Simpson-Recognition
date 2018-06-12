@@ -16,7 +16,7 @@
 
 数据集下载链接:https://pan.baidu.com/s/14hUSlqipz8yTWGdgJCXkaw  密码:hrmc，目前我这里的人物类别有47类，项目选取了其中18类作为样本数据集，样本图片大小不一，样式千奇百怪，背景也不尽相同，随便贴几张图大家感受下
 
-
+![图片1](https://github.com/lpdsdx/Simpson-Recognition/blob/master/simpson.png)
 
 看完后有什么感想？是不是觉得想要达到100%的识别准确率是真的难- -|||
 
@@ -273,6 +273,8 @@ plt.yticks(tick_marks,classes)
 plt.ylabel('True label')
 plt.xlabel('Predicted label')
 ```
+![bart](https://github.com/lpdsdx/Simpson-Recognition/blob/master/pic_0007.jpg)
+![lisa](https://github.com/lpdsdx/Simpson-Recognition/blob/master/pic_0012.jpg)
 
 可以看出，Lisa的准确率偏低，很大部分误分成Bart，因为什么呢？先看看他俩长啥样再说，你会发现，他俩除了头型其他确实很像！这下分错也情有可原了- -||
 
